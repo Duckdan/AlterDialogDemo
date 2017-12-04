@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements AlertDialog.OnSho
         testDialog.setOnShowListener(this);
         testDialog.setOnDismissListener(this);
         testDialog.show();
-        testDialog.setContentView(R.layout.add_remind_record);
+        testDialog.setContentView(inflate);
         testDialog.setCancelable(false);
 
         Window window = testDialog.getWindow();
